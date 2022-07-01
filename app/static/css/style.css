@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*
+{
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+body
+{
+  margin: 0;
+}
+.time_tablecalc
+{
+  border: 1px solid #ccc;
+}
+.time_tablecalc th
+{
+  padding: 18px 20px;
+}
+.time_tablecalc .timetable_body,
+.time_tablecalc .timetable_footer
+{
+  border-top: none;
+}
+.timetable_body td
+{
+  padding: 12px 20px;
+  vertical-align: middle;
+}
+.copy_btn
+{
+  padding: 6px 18px;
+  border-radius: 5px;
+  color: #fff;
+  background: #57bb71;
+  border: 1px solid #57bb71;
+  font-size: 15px;
+}
+.date_mention
+{
+  color: #959494;
+}
+/*.timetable_body tr:last-child td
+{
+  border-bottom: none;
+}*/
+.day_date_data
+{
+  font-weight: 600;
+}
+.break_checkbox
+{
+  cursor: pointer;
+  width: 17px;
+}
+.noshadow_focus:focus
+{
+  box-shadow: none;
+}
+.timetable_footer td
+{
+  padding: 20px;
+  vertical-align: top;
+}
+.name_user
+{
+  font-size: 18px;
+}
+.small_text
+{
+  font-size: 13px;
+  color: #959595;
+}
+.highlight_total
+{
+  font-weight: 600;
+}
+
+#copyMonday{
+  display: block !important;
+}
+.date_picker
+{
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+  max-width: 700px;
+  width: 100%;
+}
+.date_picker input
+{
+  border: none;
+  margin-bottom: 0px;
+  padding: 0;
+  box-shadow: none;
+}
+.date_picker input:focus
+{
+  box-shadow: none;
+  outline: none;
+}
+#ui-datepicker-div .ui-widget-header
+{
+  background: #98caff;
+}
+#ui-datepicker-div .ui-state-default
+{
+  color: #ffffff;
+  background: #005ec1;
+  border-radius: 5px;
+  text-align: center;
+}
+#ui-datepicker-div .ui-state-disabled, .ui-widget-content .ui-state-disabled
+{
+  opacity: .25;
+}
