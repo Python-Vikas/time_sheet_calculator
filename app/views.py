@@ -6,3 +6,4 @@ class HomeView(View):
     
     def get(self, request):
         return render(request, 'app/home.html')
+
