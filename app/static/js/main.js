@@ -133,10 +133,6 @@ $(document).ready(function(){
           let finishTime = new Date( `01/01/2007 ${finishVal}` );
 
           let hoursWorked = ((finishTime.getTime() - startTime.getTime()) / 1000);
-
-          console.log(hoursWorked,'================')
-          console.log((hoursWorked/60)/60,'================')
-          
           let totalWorkHours = (((hoursWorked - breakTime)));
           totalWorkHours /= (60 * 60);
 
