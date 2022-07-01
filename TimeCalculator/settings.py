@@ -24,7 +24,7 @@ import django_heroku
 SECRET_KEY = 'django-insecure-92zeu=wm5ma#roi+e8x4o&zur(lm2c&9%t(^@4ve8v_#fm)zq8'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1', '.herokuapp.com']
 
